@@ -88,7 +88,7 @@ public class ParallaxHeader: NSObject {
      The content view on top of the UIScrollView's content.
      */
     private var _contentView: UIView?
-    var contentView: UIView {
+    public var contentView: UIView {
         get {
             if let contentView = _contentView {
                 return contentView
